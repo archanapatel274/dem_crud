@@ -1,0 +1,16 @@
+create folder inc in views folder 
+
+create home file in views
+create header and footer in inc folder
+
+now add bootstrap and jqury file into public -> css and public -> js folder
+Add script files in public -> js
+
+now add navbar code from bootswatch.com and set view Home in  web.php 
+
+now cut head code and paste in to the header.blad file and same for footer file
+
+@include('inc.head')
+@include('inc.footer')
+
+with this we can add files in home.blad file 
